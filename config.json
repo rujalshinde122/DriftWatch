@@ -1,0 +1,14 @@
+{
+  "watch_files": [
+    "/tmp/driftwatch_mock.log"
+  ],
+  "anomaly_threshold_z": 2.5,
+  "min_event_count": 5,
+  "window_seconds": 30,
+  "history_depth": 10,
+  "alert_sinks": {
+    "console": true,
+    "file": "alerts.log",
+    "webhook": ""
+  }
+}
